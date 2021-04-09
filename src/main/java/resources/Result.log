@@ -1,0 +1,7 @@
+15:41:09.296 [main] INFO  resources.Base - Successfully entered username and password
+15:41:09.757 [main] INFO  resources.Base - displaying kudos to me
+15:41:17.009 [main] INFO  resources.Base - Successfully opened the application
+15:41:18.897 [main] INFO  resources.Base - sucessfulyy opened
+15:41:29.102 [main] INFO  resources.Base - Successfully entered username and password
+15:41:29.549 [main] INFO  resources.Base - kudos sent from me is Displayed
+15:41:29.549 [main] INFO  resources.Base - Email address is autopopulated in the Emailaddress field

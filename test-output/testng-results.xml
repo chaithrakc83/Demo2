@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-26T15:35:06 IST" name="Suite" finished-at="2021-03-26T15:41:32 IST" duration-ms="385870">
+    <groups>
+    </groups>
+    <test started-at="2021-03-26T15:35:06 IST" name="Test1" finished-at="2021-03-26T15:36:22 IST" duration-ms="75652">
+      <class name="testPackage.QTTestCase">
+        <test-method signature="open(java.lang.String, java.lang.String)[pri:0, instance:testPackage.QTTestCase@5fa07e12]" started-at="2021-03-26T15:35:06 IST" name="open" data-provider="getData" finished-at="2021-03-26T15:35:39 IST" duration-ms="33068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chaithra.chandraiah@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="open(java.lang.String, java.lang.String)[pri:0, instance:testPackage.QTTestCase@5fa07e12]" started-at="2021-03-26T15:35:39 IST" name="open" data-provider="getData" finished-at="2021-03-26T15:36:03 IST" duration-ms="23559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c.chandraiah@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="open(java.lang.String, java.lang.String)[pri:0, instance:testPackage.QTTestCase@5fa07e12]" started-at="2021-03-26T15:36:03 IST" name="open" data-provider="getData" finished-at="2021-03-26T15:36:22 IST" duration-ms="18929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chaithra.chandraiah@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- testPackage.QTTestCase -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-03-26T15:36:22 IST" name="Test2" finished-at="2021-03-26T15:36:22 IST" duration-ms="18">
+      <class name="testPackage.Titletestcase">
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testPackage.Titletestcase@5fd4f8f5]" started-at="2021-03-26T15:36:22 IST" name="basePageNavigation" data-provider="getData" finished-at="2021-03-26T15:36:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+at testPackage.Titletestcase.getData(Titletestcase.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- testPackage.Titletestcase -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-03-26T15:36:23 IST" name="Test3" finished-at="2021-03-26T15:37:02 IST" duration-ms="39829">
+      <class name="testPackage.Colourstestcase">
+        <test-method signature="colours()[pri:0, instance:testPackage.Colourstestcase@4944252c]" started-at="2021-03-26T15:36:23 IST" name="colours" finished-at="2021-03-26T15:37:02 IST" duration-ms="39825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colours -->
+      </class> <!-- testPackage.Colourstestcase -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-03-26T15:37:03 IST" name="Test4" finished-at="2021-03-26T15:37:38 IST" duration-ms="35098">
+      <class name="testPackage.Activitypagetestcase">
+        <test-method signature="open()[pri:0, instance:testPackage.Activitypagetestcase@625732]" started-at="2021-03-26T15:37:03 IST" name="open" finished-at="2021-03-26T15:37:38 IST" duration-ms="35095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- testPackage.Activitypagetestcase -->
+    </test> <!-- Test4 -->
+    <test started-at="2021-03-26T15:37:38 IST" name="Test5" finished-at="2021-03-26T15:38:50 IST" duration-ms="72500">
+      <class name="testPackage.Sendsinglekudotestcase">
+        <test-method signature="open()[pri:0, instance:testPackage.Sendsinglekudotestcase@5ace1ed4]" started-at="2021-03-26T15:37:38 IST" name="open" finished-at="2021-03-26T15:38:50 IST" duration-ms="72495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- testPackage.Sendsinglekudotestcase -->
+    </test> <!-- Test5 -->
+    <test started-at="2021-03-26T15:38:51 IST" name="Test6" finished-at="2021-03-26T15:39:37 IST" duration-ms="46634">
+      <class name="testPackage.Mutiplekudos">
+        <test-method signature="open()[pri:0, instance:testPackage.Mutiplekudos@a2431d0]" started-at="2021-03-26T15:38:51 IST" name="open" finished-at="2021-03-26T15:39:37 IST" duration-ms="46630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+      </class> <!-- testPackage.Mutiplekudos -->
+    </test> <!-- Test6 -->
+    <test started-at="2021-03-26T15:39:37 IST" name="Test7" finished-at="2021-03-26T15:40:08 IST" duration-ms="30328">
+      <class name="testPackage.Deselectkudotype">
+        <test-method signature="basePageNavigation()[pri:0, instance:testPackage.Deselectkudotype@10163d6]" started-at="2021-03-26T15:39:37 IST" name="basePageNavigation" finished-at="2021-03-26T15:40:08 IST" duration-ms="30322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- testPackage.Deselectkudotype -->
+    </test> <!-- Test7 -->
+    <test started-at="2021-03-26T15:40:08 IST" name="Test8" finished-at="2021-03-26T15:40:34 IST" duration-ms="26311">
+      <class name="testPackage.Searchkudos_testcases">
+        <test-method signature="searchkudospage()[pri:0, instance:testPackage.Searchkudos_testcases@20f5239f]" started-at="2021-03-26T15:40:08 IST" name="searchkudospage" finished-at="2021-03-26T15:40:34 IST" duration-ms="26308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchkudospage -->
+      </class> <!-- testPackage.Searchkudos_testcases -->
+    </test> <!-- Test8 -->
+    <test started-at="2021-03-26T15:40:34 IST" name="Test9" finished-at="2021-03-26T15:40:52 IST" duration-ms="18074">
+      <class name="testPackage.kudosfrommetestcase">
+        <test-method signature="kudosfrommenavigationpage()[pri:0, instance:testPackage.kudosfrommetestcase@446293d]" started-at="2021-03-26T15:40:34 IST" name="kudosfrommenavigationpage" finished-at="2021-03-26T15:40:52 IST" duration-ms="18071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kudosfrommenavigationpage -->
+      </class> <!-- testPackage.kudosfrommetestcase -->
+    </test> <!-- Test9 -->
+    <test started-at="2021-03-26T15:40:52 IST" name="Test10" finished-at="2021-03-26T15:41:10 IST" duration-ms="17488">
+      <class name="testPackage.kudostome_testcase">
+        <test-method signature="kudostomenavigationpage()[pri:0, instance:testPackage.kudostome_testcase@101952da]" started-at="2021-03-26T15:40:52 IST" name="kudostomenavigationpage" finished-at="2021-03-26T15:41:10 IST" duration-ms="17454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kudostomenavigationpage -->
+      </class> <!-- testPackage.kudostome_testcase -->
+    </test> <!-- Test10 -->
+    <test started-at="2021-03-26T15:41:10 IST" name="Test11" finished-at="2021-03-26T15:41:32 IST" duration-ms="22083">
+      <class name="testPackage.Recentcontactstestcase">
+        <test-method is-config="true" signature="bsuite()[pri:0, instance:testPackage.Recentcontactstestcase@2b48a640]" started-at="2021-03-26T15:35:05 IST" name="bsuite" finished-at="2021-03-26T15:35:06 IST" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsuite -->
+        <test-method signature="Recentcontactsnavigationpage()[pri:0, instance:testPackage.Recentcontactstestcase@2b48a640]" started-at="2021-03-26T15:41:10 IST" name="Recentcontactsnavigationpage" finished-at="2021-03-26T15:41:32 IST" duration-ms="22029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Recentcontactsnavigationpage -->
+      </class> <!-- testPackage.Recentcontactstestcase -->
+    </test> <!-- Test11 -->
+  </suite> <!-- Suite -->
+</testng-results>
